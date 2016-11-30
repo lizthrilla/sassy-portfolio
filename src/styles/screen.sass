@@ -1,7 +1,9 @@
 @import 'utility'
+@import url('https://fonts.google.com/specimen/Roboto?selection.family=Roboto')
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab')
 
 $base-text-size: 16px
-$base-font-family: sans-serif
+$base-font-family: 'Roboto', sans-serif
 
 html
   text-size-adjust: 100%
@@ -10,3 +12,66 @@ body
   @include font-smoothing(on)
   margin: 0
   font: $base-text-size / 1 $base-font-family
+  display: block
+  align-content: center
+  justify-content: center
+  background-color: whitesmoke
+
+header
+  display: flex
+  align-content: center
+  justify-content: center
+  padding-bottom: 2em
+  padding-top: 2em
+  margin-top: -100px
+
+
+.firsthalf
+  background-color: cadetblue
+  padding-top: 100px
+
+  .avi
+    height: 200px
+    width: 200px
+    border-radius: 10px
+
+  .textbubble
+    display: flex
+    align-content: center
+    justify-content: flex-start
+    padding-bottom: 1em
+
+    .introtext
+      background-color: hsla(0, 0%, 99%, 0.78)
+      height: 100px
+      width: auto
+      border-radius: 5px
+      position: relative
+      margin-left: 1em
+      margin-top: -1em
+      margin-bottom: 1em
+      padding: 5px
+      padding-left: 1em
+      // padding-right: 2em
+
+        h2
+          margin-top: 0.25em
+
+        p
+          padding-bottom: 1em
+
+    img
+      opacity: .78
+      height: 20px
+      width: 20px
+      display: block
+      position: absolute
+      padding-left: 40px
+      margin-top: 94px
+
+.portfolio
+  background-color: hsla(176, 70%, 86%, 0.65)
+  margin-bottom: -20px
+  display: flex
+  align-content: center
+  justify-content: center

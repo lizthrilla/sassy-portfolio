@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-  <title>Sassy Portfolio</title>
-</head>
-<body>
-  <h1>Hello, World!</h1>
-</body>
+  <head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="screen.css"> <!--put the / back in href to make it load in chrome-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  </head>
+
+  <body>
+    <section class="firsthalf">
+    <header style="background-image: url(OhSoLovely-LOVE-aqua-ombre-01.png)">
+        <img class="avi" src="https://raw.githubusercontent.com/lizthrilla/tiller-portfolio/master/public/myavatar.jpg" alt="My Avatar">
+        <div class="textbubble">
+          <div class="introtext">
+            <h2>Hi, I'm Liz Tiller!</h2>
+            <p class="subintro">I'm attending The Iron Yard</p>
+          </div>
+          <img class="speech"src="https://raw.githubusercontent.com/lizthrilla/tiller-portfolio/master/public/tri.png" alt="speechbubble" />
+        </div>
+    </header>
+    <div class="portfolio">
+      <ul class="exampleimages">
+        <li class="helloworld" style="background-image: url(Hello_World.png)"><a class="exlink" href="http://elite-flowers.surge.sh/">Hello World</a></li>
+        <li class="octodex" style="background-image: url(The_Responsive_Octodexx.png)"><a class="exlink" href="http://changeable-beginner.surge.sh/">Octodex</a></li>
+        <li class="designco"style="background-image: url(DESIGNCO.png)"><a class="exlink" href="http://mundane-selection.surge.sh/">Design Co</a></li>
+        <!--<li class="sensei"style="background-image: url(sensei-sense.png)"> Sensei Sense</li>-->
+      </ul>
+    </div>
+  </section>
+
+  <section class="blogs">
+    <div class="blogpost">
+      <div class="bloghead" style="background-image: url(code.png)"></div>
+      <div class="textbox">
+        <h3>What Have I Gotten Myself Into? </h3>
+        <h3 class="subtitle">Or How I'm Learning to Love Javascript? <span>November 14, 2016</span></h3>
+        <p>Yes, that question mark is meant to be there.</p>
+        <p>Javascript is not easy...</p>
+        <a class="more" href="https://medium.com/@liztiller/what-have-i-gotten-myself-into-or-how-im-learning-to-love-javascript-6d0c0ac8359a#.pp6heec35"> Keep Reading</a>
+      </div>
+    </div>
+  </section>
+
+    <section class="footer">
+      <h1> Stay Connected with Me! </h1>
+      <ul>
+        <li class="socialmedia" style="background-image: url(Twitter_Logo_White_On_Blue.png)"> <a class="twitter" href="http://www.twitter.com/LizTiller">Twitter</a></li>
+        <li class="linkedin" style="background-image: url(linkedin-logo-0.png)"> <a class="twitter" href="https://www.linkedin.com/in/elizabeth-tiller-3965298?trk=nav_responsive_tab_profile">linkedin</a></li>
+        <li class="socialmedia" style="background-image: url(mediumlogo.png)"> <a class="twitter" href="https://medium.com/@liztiller">medium</a></li>
+      </ul>
+     <h6 class="copyright">Copyright© 2016 Liz Tiller.  Built at The Iron Yard.</h6>
+   </section>
+  </body>
 </html>
